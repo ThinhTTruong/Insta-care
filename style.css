@@ -1,0 +1,39 @@
+
+body{
+	background: url(https://art.pixilart.com/41fd53fb439e3b6.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+  }
+
+p {
+    margin: 0;
+    padding: 0;
+    text-align:center;
+    position: absolute;
+    color: white;
+}
+
+.content-section {
+    background: #ffffff;
+    padding: 10px 20px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    margin-bottom: 20px;
+  }
+
+form{
+        animation: transitionIn 1s;
+}
+
+@keyframes transitionIn{
+    from{
+        opacity:0;
+        transform:translateY(-10px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0px);
+    }
+}
